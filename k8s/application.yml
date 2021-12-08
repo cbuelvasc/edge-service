@@ -1,0 +1,10 @@
+spring:
+  config:
+    import: optional:configserver:,configtree:/workspace/secrets/*/
+  cloud:
+    config:
+      uri: http://configuration-service
+  rabbitmq:
+    host: rabbitmq
+  redis:
+    host: redis
