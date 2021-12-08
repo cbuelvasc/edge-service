@@ -17,10 +17,3 @@ After building the application, you can also run it from the Java CLI:
 ```bash
 java -jar build/libs/edge-service-0.0.1-SNAPSHOT.jar
 ```
-
-## REST API
-
-| Endpoint	                  | Method   | Req. body  | Status | Resp. body     | Description    		   	                                |
-|:---------------------------:|:--------:|:----------:|:------:|:--------------:|:----------------------------------------------------------|
-| `/catalog-service/default`  | `GET`    |            | 200    |                | Get the configuration of Catalog Service default profile. |
-| `/catalog-service/prod`     | `GET`    |            | 200    |                | Get the configuration of Catalog Service prod profile.    |
